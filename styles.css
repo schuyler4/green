@@ -1,0 +1,71 @@
+body {
+  margin: 0
+}
+
+#header {
+  background-color: green;
+  margin: 0;
+  width: 100%;
+}
+
+#headerText {
+  font-family: arial;
+  text-align: center;
+}
+
+.card {
+  border: 5px solid gray;
+  width: 300px;
+  margin: 10px
+}
+
+.text {
+  font-family: arial;
+  text-align: center;
+}
+
+.scale {
+  height: 70px;
+}
+
+#red-scale {
+  background-color: red;
+}
+
+#orange-scale {
+  background-color: orange;
+}
+
+#yellow-scale {
+  background-color: yellow;
+}
+
+#blue-scale {
+  background-color: blue;
+}
+
+.button {
+  width: 290;
+  height: 50;
+  background-color: white;
+  border: 4px solid black;
+  margin: 3;
+  font-size: 20px;
+  font-weight: bold;
+  align: center;
+  position: relative;
+  top:50%;
+  left:1%;
+}
+
+#furnace-controll {
+  position: absolute;
+  top: 38px;
+  left: 320px;
+}
+
+#farm-controll {
+  position: absolute;;
+  left: 320px;
+  top: 285px;
+}

@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Green2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.8.0.js">
+    </script>
+  </head>
+  <body>
+    <div>
+      <div id="header">
+        <h2 id="headerText">Green2</h2>
+      </div>
+      <div class="card">
+        <h3 class="text">Energy Input:</h3>
+        <h3 class="text">Energy Output:</h3>
+      </div>
+      <div class="card">
+        <h3 class="text">Problems: </h3>
+      </div>
+      <div class="card">
+        <h3 class="text"> Temperature </h3>
+        <div class="scale" id="red-scale"></div>
+        <div class="scale" id="orange-scale"></div>
+        <div class="scale" id="yellow-scale"></div>
+        <div class="scale" id="blue-scale"></div>
+      </div>
+      <div class="card" id="furnace-controll">
+        <h3 class="text">Furnace Controlls</h3>
+        <button class="button" id="heat-up-button"> Heat Up </button>
+        <button class="button" id="cool-down-button"> Cool Down </button>
+        <button class="button" id="turn-on-button"> Turn On </button>
+      </div>
+      <div class="card" id="farm-controll">
+        <h3 class="text">Farm Controlls</h3>
+        <h4 class="text" id="grow-time">Grow Time:</h4>
+        <button class="button" id="plant-button">Plant</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
