@@ -151,6 +151,5 @@ function getInputAndOutput() {
 }
 
 setInterval(() => {
-  findProblems()
   getInputAndOutput()
 }, 10);
