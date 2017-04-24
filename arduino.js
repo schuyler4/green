@@ -15,9 +15,8 @@ board.on('ready', () => {
     message(message) {
       if(message.channel === 'green') {
         console.log(message);
-        if(parseInt(message.message) === 0) {
+        if(parseInt(message.message) === 1) {
           led.off();
-          console.log('it is');
         } else {
           led.brightness(parseInt(message.message));
         }
@@ -47,13 +46,15 @@ board.on('ready', () => {
   let doneGrowing = false;
 
   setInterval(function() {
-    if(growing && counter < 4001) {
+    if(growing && counter < 5001) {
       counter += 1
 
       const publishConfig = {
         channel: 'time',
         message: counter
       }
+
+      console.log(publishConfig);
 
       pubnub.publish(publishConfig);
 
