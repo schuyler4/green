@@ -74,3 +74,8 @@ body {
   margin: 0;
   font-size: 100;
 }
+
+#discription {
+  font-family: arial;
+  padding-left: 10;
+}

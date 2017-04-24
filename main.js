@@ -46,6 +46,7 @@ function turnOn() {
     changeScale(index);
   }
 
+  console.log('should have poblished')
   pubnub.publish(publishConfig);
 }
 
